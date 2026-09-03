@@ -374,7 +374,7 @@ for (let i = 0; i < dadosClientes.length; i++) {
   const cliente = new Cliente(dados.nome, dados.cpf, dados.endereco, dados.telefones);
   empresa.adicionarCliente(cliente);
 }
-
+//Cliente não encontrado: Peter Parker
 console.log(empresa.gerarDescricao());
 
 console.log('Testando get, maiúscula e minúscula:');
